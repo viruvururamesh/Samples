@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Chart specific*/
+/* .piechartMeaserments {
+   width:300px; 
+  height: 400px !important;
+} */
+.chart-heading {
+  border: 2px solid #e7e9eb;
+}
+.charts-height {
+  height: 203px !important;
+}
+.charts-height-pie {
+  height: 188px !important;
+}
+.charts-height-gauge {
+  height: 169px !important;
+}
+.charts-height-Applevel {
+  height: 350px !important;
+}
+.chart-remaing-part {
+  border-top: 0px;
+  border-left: 2px solid #e7e9eb;
+  border-right: 2px solid #e7e9eb;
+  border-bottom: 2px solid #e7e9eb;
+  padding: 10px 0px;
+}
+/*we already have this calsses*/
+.graphs-fontsize {
+  font-size: 14px;
+
+  text-align: center;
+
+  color: #0170bc;
+
+  font-weight: bold;
+}
+
+.graphs-subtitle {
+  font-size: 13px;
+}
+
+.graph-subtitle-color {
+  color: #0170bc;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
